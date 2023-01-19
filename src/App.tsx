@@ -1,18 +1,12 @@
 
 function App() {
   return (
-    <div className="h-full border-2 border-gray-200
-                border-opacity-60 rounded-lg
-                overflow-hidden">
- 
-        <div className="p-6 hover:bg-green-600
-                    hover:text-white transition
-                    duration-300 ease-in">
- 
-            <h1 className="text-2xl font-semibold mb-3">
-                Hover
-            </h1>
-        </div>
+    <div className="font-computer bg-black text-green-500 h-screen select-none">
+      <p>
+        C:\{">"}
+        <br></br>
+        Compiling...
+      </p>
     </div>
   );
 }
